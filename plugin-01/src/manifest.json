@@ -6,12 +6,28 @@
       "name": "my-command",
       "identifier": "my-command-identifier",
       "script": "./my-command.js"
+    },
+    {
+      "name": "my-SUPER-command",
+      "identifier": "my-SUPER-command-identifier",
+      "script": "./my-SUPER-command.js"
+    },
+    {
+      "name": "My Action Listener",
+      "script": "my-action-listener.js",
+      "identifier": "my-action-listener-identifier",
+      "handlers": {
+        "actions": {
+          "OpenDocument": "onOpenDocument"
+        }
+      }
     }
   ],
   "menu": {
     "title": "plugin-01",
     "items": [
-      "my-command-identifier"
+      "my-command-identifier",
+      "my-SUPER-command-identifier"
     ]
   }
 }
