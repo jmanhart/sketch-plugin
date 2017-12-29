@@ -1,5 +1,5 @@
 {
-  "name": "plugin-01",
+  "name": "plugin",
   "version": "0.1.0",
   "engines": {
     "sketch": ">=3.0"
