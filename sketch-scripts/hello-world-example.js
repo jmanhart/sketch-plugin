@@ -14,9 +14,16 @@
     alignment: "right",
     text:"Hello World"
   })
+
+  var Sublayer = page.newText({
+    alignment: "right",
+    text:"Hello World"
+  })
+
   // ...resize it so that the text just fits...
   layer.resizeToFitContents()
 
   // Finally, lets center the view on our new layer
   // so that we can see where it is.
   document.centerOnLayer(layer)
+  document.centerOnLayer(Sublayer)
