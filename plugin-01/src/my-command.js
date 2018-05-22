@@ -1,3 +1,6 @@
+// let's get a hold on the Sketch API
+const sketch = require('sketch')
+
 export default function (context) {
   const selectedLayers = context.selection
   const selectedCount = selectedLayers.length
